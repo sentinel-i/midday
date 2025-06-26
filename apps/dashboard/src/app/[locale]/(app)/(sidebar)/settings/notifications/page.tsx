@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic"
+
 import { NotificationsSettingsList } from "@/components/notifications-settings-list";
 import type { Metadata } from "next";
 import { Suspense } from "react";

@@ -1,3 +1,8 @@
+console.log("Edge env:", {
+  SUPABASE_URL: process.env.SUPABASE_URL,
+  SUPABASE_ANON_KEY: process.env.SUPABASE_ANON_KEY,
+});
+
 import { updateSession } from "@midday/supabase/middleware";
 import { createClient } from "@midday/supabase/server";
 import { createI18nMiddleware } from "next-international/middleware";

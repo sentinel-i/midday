@@ -46,8 +46,10 @@ export function OTPSignIn({ className }: Props) {
     email,
     options: {
       shouldSendLink: false,
+      emailRedirectTo: `${window.location.origin}/login`,
     },
   });
+
 
 
     setSent(true);

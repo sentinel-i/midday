@@ -22,7 +22,7 @@ export const verifyOtpAction = actionClient
     await supabase.auth.verifyOtp({
       email,
       token,
-      type: "email_otp",
+      type: "email",
     });
 
     (await cookies()).set(Cookies.PreferredSignInProvider, "otp", {

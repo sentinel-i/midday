@@ -42,11 +42,7 @@ export function OTPSignIn({ className }: Props) {
 
     setEmail(email);
 
-  await supabase.auth.signInWithOtp({
-    email,
-    options: { shouldSendLink: false }
-  });
-
+    await supabase.auth.signInWithOtp({ email });
 
     setSent(true);
     setLoading(false);

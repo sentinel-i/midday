@@ -22,12 +22,12 @@ export const verifyOtpAction = actionClient
     await supabase.auth.verifyOtp({
       email,
       token,
-      type: "email",
+      type: "email_otp",
     });
 
     (await cookies()).set(Cookies.PreferredSignInProvider, "otp", {
       expires: addYears(new Date(), 1),
     });
 
-    redirect(redirectTo);
+    redirect("/setup");
   });

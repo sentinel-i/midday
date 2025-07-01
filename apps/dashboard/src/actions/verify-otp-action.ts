@@ -29,5 +29,5 @@ export const verifyOtpAction = actionClient
       expires: addYears(new Date(), 1),
     });
 
-    redirect("/setup");
+    redirect(redirectTo);
   });

@@ -48,9 +48,7 @@
         "NEXT_PUBLIC_SUPABASE_URL",
         "NEXT_PUBLIC_SUPABASE_ANON_KEY",
         "LOG_LEVEL",
-        "MIDDAY_API_URL",
-        "NODE_OPTIONS",
-        "NODE_ENV"
+        "NEXT_PUBLIC_API_URL"
       ],
       "inputs": ["$TURBO_DEFAULT$", ".env"],
       "dependsOn": ["^build"],

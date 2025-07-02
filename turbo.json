@@ -51,7 +51,6 @@
         "LOG_LEVEL",
         "MIDDAY_API_URL",
         "NODE_ENV",
-        "NODE_OPTIONS"
       ],
       "inputs": ["$TURBO_DEFAULT$", ".env"],
       "dependsOn": ["^build"],

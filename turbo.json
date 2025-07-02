@@ -47,7 +47,8 @@
         "NOVU_API_KEY",
         "NEXT_PUBLIC_SUPABASE_URL",
         "NEXT_PUBLIC_SUPABASE_ANON_KEY",
-        "DEBUG"
+        "NODE_OPTIONS",
+        "LOG_LEVEL"
       ],
       "inputs": ["$TURBO_DEFAULT$", ".env"],
       "dependsOn": ["^build"],

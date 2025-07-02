@@ -46,8 +46,8 @@
         "NOVU_SECRET_KEY",
         "NOVU_API_KEY",
         "NEXT_PUBLIC_SUPABASE_URL",
-        "NEXT_PUBLIC_SUPABASE_ANON_KEY"
-
+        "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+        "MIDDAY_API_URL"
       ],
       "inputs": ["$TURBO_DEFAULT$", ".env"],
       "dependsOn": ["^build"],

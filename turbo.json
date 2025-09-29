@@ -51,7 +51,11 @@
         "NEXT_PUBLIC_API_URL",
         "NEXTAUTH_URL",
         "SUPABASE_URL",
-        "SUPABASE_ANON_KEY"
+        "SUPABASE_ANON_KEY",
+        "NEXTAUTH_SECRET",
+        "AUTH_URL",
+        "AUTH_SECRET",
+        "AUTH_TRUST_HOST"
       ],
       "inputs": ["$TURBO_DEFAULT$", ".env"],
       "dependsOn": ["^build"],
